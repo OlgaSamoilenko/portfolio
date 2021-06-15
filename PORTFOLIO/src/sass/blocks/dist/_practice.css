@@ -1,0 +1,33 @@
+.experience {
+  margin: 0 25% 0 25%;
+  width: 50%;
+}
+
+.title__practice__aboutme {
+  display: flex;
+  justify-content: center;
+  width: 569px;
+}
+
+.experience__me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 570px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.aboutme__line {
+  margin-bottom: 10px;
+}
+
+.experience__line {
+  display: flex;
+  justify-content: center;
+}
+
+.experience_texe {
+  position: relative;
+  left: -14px;
+}

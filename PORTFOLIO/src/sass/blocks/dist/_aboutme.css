@@ -1,0 +1,73 @@
+.aboutme {
+  width: 1040px;
+  height: 840px;
+  margin-left: 600px;
+}
+.aboutme__wrapper {
+  margin-top: 120px;
+  display: flex;
+  margin-bottom: 138px;
+}
+.aboutme__foto {
+  min-width: auto;
+}
+.aboutme__line {
+  width: 60px;
+  height: 0px;
+  border: 1px solid #FFA501;
+}
+
+.about_inf {
+  padding: 0 70px 0;
+}
+.about_inf__line {
+  margin-bottom: 13px;
+}
+
+.title__aboutme {
+  margin: 6px 0 6px;
+  width: 445px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 60px;
+}
+
+.about__experience {
+  width: 280px;
+  height: 116px;
+  margin-top: 40px;
+  display: flex;
+}
+
+.about__subtitle14 {
+  width: 147px;
+  height: 21px;
+  padding-left: 24px;
+  margin-top: 6px;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.about__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__texte {
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.wrapper2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about__subtitle14 {
+  width: 280px;
+  height: 160px;
+}
