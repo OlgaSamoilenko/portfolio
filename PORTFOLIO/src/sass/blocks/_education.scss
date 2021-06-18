@@ -1,20 +1,111 @@
-.span {
-    width: 343px;
-    height: 0px;
-    border: 1px solid #000000;
-    transform: rotate(90deg);
-}
-
-.circle {
-    height: 0px;
-    transform: rotate(270deg);
-}
-
-// .education__inf {
-//     border: 1px solid #000;
-//     right: 101px;
-//     position: relative;
-// }
-.education {
-    height: 679px;
-}
+    .span {
+        width: 343px;
+        height: 0px;
+        border: 1px solid #000000;
+        transform: rotate(90deg);
+    }
+    
+    .circle {
+        height: 0px;
+        transform: rotate(270deg);
+    }
+    
+    // .education__inf {
+    //     border: 1px solid #000;
+    //     right: 101px;
+    //     position: relative;
+    // }
+    .education {
+        height: 590px;
+        &__inf {
+            position: relative;
+            overflow: hidden;
+            // right: -65px;
+            border-radius: 100%;
+            margin: -3px 66px 1px;
+            width: 15px;
+            height: 15px;
+            padding: 11px;
+        }
+    }
+    
+    .education__longline {
+        height: 343px;
+        width: 1px;
+        margin: 0px 75px -5px;
+        border: 1px solid #000000;
+    }
+    
+    .education__little {
+        width: 60px;
+        height: 0;
+        border: 1px solid #000;
+        margin: -274px 76px 0px;
+    }
+    
+    .education__little2 {
+        width: 60px;
+        height: 0;
+        border: 1px solid #000;
+        margin: 175px 76px 0px;
+    }
+    
+    .education__title {
+        margin: -231px 135px 0px;
+    }
+    
+    .education__img {
+        margin: 5px;
+    }
+    
+    .education__wrapperinf {
+        margin-left: 16px;
+        margin: -5px 12px 0px;
+        width: 417px;
+    }
+    
+    .education__textinf {
+        width: 375px;
+        height: 78px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+        color: #000000;
+    }
+    
+    .education__textinf {
+        width: 510px;
+        height: 26px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+    }
+    
+    .education__subtitle {
+        width: 510px;
+        height: 21px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 12px;
+        color: #000000;
+    }
+    
+    .img__circle {
+        margin: 21px 0px 0px;
+    }
+    
+    .education__wrapperinf_1 {
+        margin: 21px 0px 0px;
+        width: 417px;
+    }
+    
+    .wrapper1 {
+        display: flex;
+    }
