@@ -1,3 +1,12 @@
+.usd__wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 226px);
+  grid-template-rows: repeat(2, minmax(233px, auto));
+  grid-auto-rows: 227px;
+  gap: 61px;
+  margin-bottom: 120px;
+}
+
 .usd {
   height: 270px;
   width: 270px;
@@ -14,7 +23,7 @@
 }
 
 .usd__title {
-  width: 48px;
+  width: 90px;
   height: 21px;
   font-family: Poppins;
   font-style: normal;
@@ -34,4 +43,8 @@
   font-size: 12px;
   line-height: 18px;
   color: #000000;
+}
+
+.usd__title__jQ {
+  margin: 40px 0px 17px;
 }
